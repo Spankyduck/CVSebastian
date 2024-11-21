@@ -11,7 +11,7 @@
     <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script>
         function sendEmail(event) {
-            event.preventDefault(); // Hindrer at skjemaet blir sendt normalt
+            event.preventDefault();
             
             const formData = {
                 from_name: document.getElementById('name').value,
@@ -136,17 +136,17 @@
         <ul class="flex justify-between items-center h-16 text-xl w-full">
             <!-- Venstre side (Logo) -->
             <li>
-                <h1 class="text-white text-2xl pl-12 pr-4 font-bold sm:text-4xl" style="text-shadow: 0 0 20px rgba(0, 225, 255, 0.8);">Gruppe 4</h1>
+                <h1 class="text-white text-2xl pl-12 pr-4 font-bold sm:text-4xl" style="text-shadow: 0 0 20px rgba(0, 225, 255, 0.8);">Sebastian Garcia Jessen</h1>
             </li>
     
             <!-- Høyre side (Lenker) -->
             <li>
                 <ul class="flex space-x-8">
                     <li>
-                        <a class="text-white hover:text-gray-300 hover:underline transition-colors duration-200 ease-in-out" href="#kontakt-oss">Kontakt oss</a>
+                        <a class="text-white hover:text-gray-300 hover:underline transition-colors duration-200 ease-in-out" href="#kontakt-oss">Kontakt meg</a>
                     </li>
                     <li>
-                        <a class="text-white hover:text-gray-300 hover:underline transition-colors duration-200 ease-in-out" href="#om-gruppen">Om gruppen</a>
+                        <a class="text-white hover:text-gray-300 hover:underline transition-colors duration-200 ease-in-out" href="#om-gruppen">Mer om meg</a>
                     </li>
                 </ul>
             </li>
@@ -161,207 +161,10 @@
 	</br>
     <div class="max-w-4xl mx-auto px-12">
       <h1 class="text-6xl sm:text-8xl text-center font-bold text-white animate-slide-in2 mb-8" style="text-shadow: 0 0 20px rgba(0, 238, 255, 0.8);">
-        Vårt bachelor team
+        
       </h1>
 
-      <!-- Team Member 1 -->
-      <div class="bg-gray-800 p-6 px-4 rounded-lg mb-6 flex flex-col md:flex-row items-center md:items-start border border-red-500 animate-slide-in glow-box-Simon">
-          <img src="src/pics/SimonHelgen_resize.jpg" alt="Simon Helgen" class="w-40 h-40 rounded-full mb-4 md:mb-0 md:mr-6">
-          <div class="text-center md:text-left">
-              <h2 class="text-2xl font-semibold text-white">Simon Helgen</h2>
-              <!-- <p class="text-sm text-gray-400 mb-2"></p> -->
-              <p class="text-gray-300">
-              Mann 23 fra Skien, Telemark. Bor og studerer i Kristiansand, Agder. På Universitet i Agder tar bacholer i IT og informasjonssystemer.  </br>
-
-              </br>
-
-              På fritiden liker jeg å game, trene, gå på toppturer og lære meg nye ting om datamaskiner. </br>
-              
-              </br>
-
-              Tidligere har jeg jobbet for Forsvaret Høgskole som lærling hvor jeg også var lokal bruker administrator. Skagerak Energi som summer intern på IKT avdelingen. Og posten som sommer vikariat. 
-              </p>
-              </br>
-              <div class="flex gap-4">
-                <button><a href="https://www.linkedin.com/in/simon-helgen-5568a1202/">
-                <img src="src/logo/LinkedIn_logo_initials.png" width="50" height="50">
-                </a></button>
-
-                <button><a href="https://github.com/NorwegianKiwi-glitch">
-                <img src="src/logo/github.png" width="50" height="50">
-            </div>
-                </a></button>
-                <!-- <button><a href="https://www.shelgen.no/">
-                <img src="src/logo/Google_Sites_2020_Logo.png" width="50" height="50">
-                </a></button> -->
-                <!-- Ferdighets bokser For Simon -->
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
-            <!-- Box 1 -->
-            <div class="bg-gray-700 p-4 rounded-lg shadow-lg text-white">
-                <h3 class="text-xl font-bold mb-2">Programmering</h3>
-                <p>HTML, CSS, Tailwind, Python, Python Flask, C# (.NET), MySQL, MongoDB, Docker</p>
-            </div>
-
-            <!-- Box 2 -->
-            <div class="bg-gray-700 p-4 rounded-lg shadow-lg text-white">
-                <h3 class="text-xl font-bold mb-2">Problemløsning</h3>
-                <p>Jeg mener det viktigste innen problemløsning i en utviklingssammenheng er å identifisere kjerneproblemet, analysere systemets oppførsel og bruke logisk tenkning for å finne en effektiv løsning.</p>
-            </div>
-
-            <!-- Box 3 -->
-            <div class="bg-gray-700 p-4 rounded-lg shadow-lg text-white">
-                <h3 class="text-xl font-bold mb-2">Gruppesamarbeid</h3>
-                <p>Jobber godt i små og store grupper.$God til å kommunisere muntlig og skriftelig på norsk og engelsk. Jeg mener det viktigste for ett godt gruppesamarbeid er god kommunikasjon, tydelige mål og fordeling av oppgaver.</p>
-            </div>
-        </div>
-              </div>
-          </div>
-      
-
-     <!-- Team Member 2 -->
-      <div class="bg-gray-800 p-6 rounded-lg mb-6 flex flex-col md:flex-row-reverse items-center md:items-start border border-blue-500 animate-slide-in4 glow-box-Rune">
-       <!-- Image -->
-        <img src="src/pics/Rune_Linkdin.jpg" alt="Rune Undheim" class="w-40 h-40 rounded-full mb-4 md:mb-0 md:ml-6">
-
-       <!-- Text Content -->
-       <div class="text-center md:text-left">
-        <h2 class="text-2xl font-semibold text-white">Rune Undheim</h2>
-        <p class="text-gray-300">
-          Jeg er mann 25år fra Nærbø, Rogaland. Bor og studerer i kristiansand på UiA og trivest veldig her. 
-          <br><br>
-          Liker å spille både dataspill og brettspill, samt jogge og følge med på utviklingen av teknologier som påvirker oss i hverdagen.
-          <br><br>
-          Før har jeg jobbet hos Rogaland Fylkeskommune sin IT-avdeling som lærling innen IKT servicefag hvor jeg satte opp servere og hjelpa ansatte med PC problemer.
-        </p>
-        
-        <!-- Social Media Buttons -->
-        <div class="flex gap-4 mt-4">
-            <button><a href="https://www.linkedin.com/in/rune-undheim-720548250/">
-                <img src="src/logo/LinkedIn_logo_initials.png" width="50" height="50">
-            </a></button>
-            <button><a href="https://github.com/RuneU">
-                <img src="src/logo/github.png" width="50" height="50">
-            </a></button>
-        </div>
-
-        <!-- Ferdighets bokser For Rune -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
-            <!-- Box 1 -->
-            <div class="bg-gray-700 p-4 rounded-lg shadow-lg text-white">
-                <h3 class="text-xl font-bold mb-2">Programming</h3>
-                <p>Har erfaring innen C# (.NET), Java, Docker, MySQL, HTML, CSS Tailwind.</p>
-            </div>
-
-            <!-- Box 2 -->
-            <div class="bg-gray-700 p-4 rounded-lg shadow-lg text-white">
-                <h3 class="text-xl font-bold mb-2">Problem løsning</h3>
-                <p>Jeg er en løsnings orientert person etter erfaringer fra help desk i læretiden min.</p>
-            </div>
-
-            <!-- Box 3 -->
-            <div class="bg-gray-700 p-4 rounded-lg shadow-lg text-white">
-                <h3 class="text-xl font-bold mb-2">Samarbeid</h3>
-                <p>Jeg samarbeider bra i store og små grupper, og kommer hurtig med innspill for hvordan forbedre samarbeid og er ikke redd for å si hva jeg mener.</p>
-            </div>
-         </div>
-      </div>
-      </div>
-
-
-
-      <!-- Team Member 3 -->
-      <div class="bg-gray-800 p-6 rounded-lg mb-6 flex flex-col md:flex-row items-center md:items-start border border-green-500 animate-slide-in glow-box-Lars">
-          <img src="src/pics/LarsUtklev.png" alt="Team Member 3" class="w-40 h-40 rounded-full mb-4 md:mb-0 md:mr-6">
-          <div class="text-center md:text-left">
-              <h2 class="text-2xl font-semibold text-white">Lars Fredrik Utklev</h2>
-              <p class="text-gray-300">
-                25 år gammel fra Arendal. Bor for øyeblikket i Arendal mens jeg går 3. året på en bachelor i IT og informasjonssystemer på Universitetet i Agder.
-                <br>
-                <br>
-                På fritiden min liker jeg å trene, fiske, være i naturen og spille dataspill.
-                <br>
-                <br>
-                Tidligere har jeg jobbet som baker og butikkmedarbeider. Per dags dato er jeg tilkallingshjelp som prosessoperatør på en fabrikk i Birkeland. 
-              </p>
-            <br>
-              <div class="flex gap-4">
-                <button><a href="https://www.linkedin.com/in/lars-utklev-35ba16326/">
-                <img src="src/logo/LinkedIn_logo_initials.png" width="50" height="50">
-                </a></button>
-                <button><a href="https://github.com/lasapasa">
-                <img src="src/logo/github.png" width="50" height="50" class="gap-4">
-                </a></button>
-              </div>
-                <!-- Ferdighets bokser For Lars -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
-            <!-- Box 1 -->
-            <div class="bg-gray-700 p-4 rounded-lg shadow-lg text-white">
-                <h3 class="text-xl font-bold mb-2">Programmering</h3>
-                <p>HTML, CSS, JavaScript, Java, Python, C# (.NET), SQL, pSQL, Docker</p>
-            </div>
-
-            <!-- Box 2 -->
-            <div class="bg-gray-700 p-4 rounded-lg shadow-lg text-white">
-                <h3 class="text-xl font-bold mb-2">Gruppesamarbeid</h3>
-                <p>Jobber godt i mindre grupper. God på skriftlig og muntlig kommunikasjon, både norsk og engelsk.</p>
-            </div>
-
-            <!-- Box 3 -->
-            <div class="bg-gray-700 p-4 rounded-lg shadow-lg text-white">
-                <h3 class="text-xl font-bold mb-2">problemløsning</h3>
-                <p>Jeg er flink til å finne løsning til oppgavene, for å produsere det beste produktet</p>
-            </div>
-        </div>
-     </div>
-          </div>
-      
-
-      <!-- Team Member 4 -->
-      <div class="bg-gray-800 p-6 rounded-lg mb-6 flex flex-col md:flex-row-reverse items-center md:items-start border border-yellow-500 animate-slide-in4 glow-box-Johannes">
-          <img src="src/pics/johannesproff.jpg" alt="Team Member 4" class="w-50 h-40 rounded-full mb-4 md:mb-0 md:ml-6">
-          <div class="text-center md:text-left">
-              <h2 class="text-2xl font-semibold text-white">Johannes Manuel Aslaksen</h2>
-              <p class="text-gray-300">
-              Jeg er 22 år gammel, opprinnelig fra Tromsø. For øyblikket fullfører jeg 3. år på bacheloren min i IT- og informasjonssystemer ved UiA Kristiansand
-              <br>
-              <br>
-              På fritiden engasjerer jeg meg i venner og diverse interesser blant annet klatring,kampsport, datamaskiner og fashion
-              <br>
-              <br>
-              Tidligere erfaringer jeg har innenfor arbeid er blant annet som kontorarbeider hos Universitetssykehuset Nord-Norge i Tromsø og lagerarbeider hos Tine
-              <br>
-              <br>
-              <div class="flex gap-4">
-                <button><a href="https://www.linkedin.com/in/johannes-manuel-aslaksen-535b8a1b7">
-                <img src="src/logo/LinkedIn_logo_initials.png" width="50" height="50">
-                </a></button>
-                <button><a href="https://github.com/johannesUIA">
-                <img src="src/logo/github.png" width="50" height="50" class="gap-4">
-                </a></button>
-            </div>
-                <!-- Ferdighets bokser For Johannes -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
-            <!-- Box 1 -->
-            <div class="bg-gray-700 p-4 rounded-lg shadow-lg text-white">
-                <h3 class="text-xl font-bold mb-2">Programmering</h3>
-                <p>HTML, CSS, Tailwind, Python, C# (.NET), MySQL, MariaDB, Docker</p>
-            </div>
-
-            <!-- Box 2 -->
-            <div class="bg-gray-700 p-4 rounded-lg shadow-lg text-white">
-                <h3 class="text-xl font-bold mb-2">Problemløsning</h3>
-                <p>I en utviklingssammenheng anser jeg det som avgjørende å først identifisere kjerneproblemet, deretter nøye analysere hvordan systemet oppfører seg, og til slutt anvende logisk tenkning for å utvikle en effektiv løsning.</p>
-            </div>
-
-            <!-- Box 3 -->
-            <div class="bg-gray-700 p-4 rounded-lg shadow-lg text-white">
-                <h3 class="text-xl font-bold mb-2">Gruppesamarbeid</h3>
-                <p>Jobber godt i små og store grupper. Jeg liker personlig å få dirigert oppgaver. Kommuniserer effektiv både på engelsk og norsk.</p>
-            </div>
-        </div>
-              </div>
-              
-          </div>
+     
       
 
       <!-- Team member 5 -->
@@ -409,7 +212,7 @@
         <section id="om-gruppen"></section> 
         <div class="text-center">
             <h1 class="text-6xl sm:text-8xl text-center font-bold text-white animate-slide-in2 mb-8" style="text-shadow: 0 0 20px rgba(0, 238, 255, 0.8);"">
-                Om gruppen
+                Mer om meg
             </h1>
             <div class= "space-y-8"> 
             <div class="bg-gray-800 p-6 rounded-lg mb-6 flex flex-col md:flex-row items-center md:items-start border border-indigo-500 animate-slide-in glow-box-Sebastian">
@@ -420,8 +223,8 @@
                             <img class="h-full w-full object-cover md:h-full md:w-52" src="src/logo/Programming1.png" alt="bilde">
                         </div>
                         <div class="p-12">
-                            <div class="uppercase text-4xl tracking-wide text-indigo-500 font-semibold">Hvem er vi</div>
-                            <p class="mt-2 text-white">Gruppe 4 i IS-310 er dette semesteret satt sammen av fem gutter. Vi som gruppe er en samling av robuste karer med bakgrunn fra sør til vest, og nord til øst. Egenskaper og ferdigheter streker seg diverse innad gruppen noe som gir gruppen mulige læringspotensialet.</p>
+                            <div class="uppercase text-4xl tracking-wide text-indigo-500 font-semibold">Hvorfor søker jeg denne stillingen?</div>
+                            <p class="mt-2 text-white">Jeg er ganske interisert i denne stillingen på grunn av jeg har stor interesse i algoritmer og dataskruktur, og med det har lyst til å kunne utdype mine ferdigheter mer i å kunne hjelpe andre studenter med emne</p>
                         </div>
                     </div>
     
@@ -431,7 +234,7 @@
                
             <div class="md:flex">
                 <div class="p-12">
-                    <div class="uppercase text-4xl tracking-wide text-indigo-500 font-semibold">Motiverte og engasjerte</div>
+                    <div class="uppercase text-4xl tracking-wide text-indigo-500 font-semibold">Hva jeg kan gie</div>
                     <p class="mt-2 text-white">Sammen skal vi som en engasjert gruppe planlegge et bacheloreprosjekt mot våren 2025. Prosjekter gruppen kunne forestilt seg i må by på gode muligheter for teknisk arbeid hvor alle av gruppens medlemmer kan få prøve seg ut med praktisk arbeid, lære og bygge erfaringer.</p>
                 </div>
                 <div class="md:shrink-0">
@@ -447,7 +250,7 @@
                     <img class="h-full w-full object-cover md:h-full md:w-60" src="src/logo/programming3.png" alt="bilde">
                 </div>
                 <div class="p-12">
-                    <div class="uppercase text-4xl tracking-wide text-indigo-500 font-semibold">Våre ambisjoner</div>
+                    <div class="uppercase text-4xl tracking-wide text-indigo-500 font-semibold"></div>
                     <p class="mt-2 text-white">Vi som gruppen er sammensatt av motiverte studenter med en solid arbeidsmoral, som resultat av dette streker ambisjonene seg sterkt. Gruppen kan se det som en forventning og aspirere mot en høyere måloppnåelse.</p>
                 </div>
             </div>
